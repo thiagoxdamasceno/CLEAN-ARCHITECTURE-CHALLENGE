@@ -1,11 +1,9 @@
-DDD - Tactical Modeling and Patterns: 
+Clean Architecture: 
 
-1 - Order Repository Challenge
- * OrderRepository class fully implement the methods defined by the OrderRepositoryInterface and tests.
+1 - Challenge 1: UseCases for Product
 
- -------------------
+2 - Challenge 2: API of Products
 
-2 - Customer Events Challenge
- * Handler1: EnviaConsoleLog1Handler. Mensagem: "Esse é o primeiro console.log do evento: CustomerCreated".
- * Handler2: EnviaConsoleLog2Handler. Mensagem: "Esse é o segundo console.log do evento: CustomerCreated".
- * Handler: EnviaConsoleLogHandler. Mensagem: "Endereço do cliente: {id}, {nome} alterado para: {endereco}".
+3 - Challenge 3: Notification Pattern of Products
+
+4 - Challenge 4: Product Validation
