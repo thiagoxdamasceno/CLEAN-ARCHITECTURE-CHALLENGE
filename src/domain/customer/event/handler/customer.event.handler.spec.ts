@@ -1,4 +1,4 @@
-import { Customer } from '../../entity/customer'
+import Customer from '../../entity/customer'
 import { Address } from '../../value-object/address'
 import { CustomerCreatedEvent } from '../customer-created.event'
 import { EnviaConsoleLogHandler } from './envia-console-log.handler'

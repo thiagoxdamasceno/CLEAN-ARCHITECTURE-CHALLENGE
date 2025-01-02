@@ -6,12 +6,12 @@ import { OrderItemModel } from "../db/sequelize/model/order-item.model";
 import { ProductModel } from "../../product/db/sequelize/model/product.model";
 import { CustomerModel } from "../../customer/db/sequelize/model/customer.model";
 import { CustomerRepository } from "../../customer/repository/customer.repository";
-import { Customer } from "../../../domain/customer/entity/customer";
 import { Address } from "../../../domain/customer/value-object/address";
 import { ProductRepository } from "../../product/repository/product.repository";
 import Product from "../../../domain/product/entity/product";
 import OrderItem from "../../../domain/order/entity/order_item";
 import Order from "../../../domain/order/entity/order";
+import Customer from "../../../domain/customer/entity/customer";
 
 describe("Order repository tests", () => {
   let sequelize: Sequelize;
@@ -314,7 +314,7 @@ describe("Order repository tests", () => {
       product.name,
       product.price,
       product.id,
-      2
+      1
     );
 
     const order = new Order("123", customer.id, [orderItem]);
@@ -349,7 +349,7 @@ describe("Order repository tests", () => {
       product1.name,
       product1.price,
       product1.id,
-      2
+      1
     );
 
     const order1 = new Order("123", customer1.id, [orderItem1]);
@@ -375,7 +375,7 @@ describe("Order repository tests", () => {
       product2.name,
       product2.price,
       product2.id,
-      2
+      1
     );
 
     const order2 = new Order("789", customer2.id, [orderItem2]);

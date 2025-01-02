@@ -1,7 +1,7 @@
 import { v4 as uuid } from 'uuid'
-import { Customer } from '../../customer/entity/customer'
 import OrderItem from '../entity/order_item'
 import Order from '../entity/order'
+import Customer from '../../customer/entity/customer'
 
 export class OrderService {
   static placeOrder(customer: Customer, items: OrderItem[]): Order {
